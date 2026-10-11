@@ -1,0 +1,72 @@
+{
+  "Logistic Regression": {
+    "memory": null,
+    "steps": [
+      [
+        "standardscaler",
+        "StandardScaler()"
+      ],
+      [
+        "logisticregression",
+        "LogisticRegression(max_iter=2000, random_state=42)"
+      ]
+    ],
+    "transform_input": null,
+    "verbose": false
+  },
+  "Random Forest": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 300,
+    "n_jobs": 4,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "CatBoost": {
+    "iterations": 500,
+    "learning_rate": 0.05,
+    "depth": 6,
+    "thread_count": 4,
+    "random_seed": 42,
+    "verbose": false,
+    "allow_writing_files": false,
+    "task_type": "CPU"
+  },
+  "TabPFN-3.5": {
+    "auto_scale_n_estimators": true,
+    "average_before_softmax": false,
+    "balance_probabilities": false,
+    "categorical_features_indices": null,
+    "device": "cpu",
+    "differentiable_input": false,
+    "eval_metric": null,
+    "fit_mode": "fit_preprocessors",
+    "ignore_pretraining_limits": false,
+    "inference_config": null,
+    "inference_precision": "auto",
+    "keep_cache_on_device": true,
+    "kv_cache_precision": null,
+    "memory_saving_mode": "auto",
+    "model_path": "C:\\Users\\corne\\Job\\Aricle_Collections\\TabPFN_3_5_vs_Traditional_ML\\.model_cache\\tabpfn-v3.5-20260909.safetensors",
+    "n_estimators": 4,
+    "n_jobs": null,
+    "n_preprocessing_jobs": 1,
+    "random_state": 42,
+    "show_progress_bar": false,
+    "softmax_temperature": "auto",
+    "tuning_config": null
+  }
+}

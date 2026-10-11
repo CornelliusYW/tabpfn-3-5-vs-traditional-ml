@@ -1,0 +1,17 @@
+{
+  "metric_rows": 40,
+  "prediction_files_verified": 40,
+  "notebook_valid": true,
+  "notebook_error_outputs": 0,
+  "embedded_article_images": 5,
+  "original_splits_preserved": true,
+  "summary_recomputed": true,
+  "tabpfn_status": "measured, base 3.5 checkpoint",
+  "measured_models": [
+    "CatBoost",
+    "Logistic Regression",
+    "Random Forest",
+    "TabPFN-3.5"
+  ],
+  "verification": "Recomputed all saved metrics from each prediction file and every summary column; checked original split preservation, timings, notebook syntax, credential absence, checkpoint hash and image references."
+}

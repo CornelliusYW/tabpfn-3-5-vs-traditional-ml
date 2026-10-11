@@ -1,0 +1,43 @@
+{
+  "run_date_jakarta": "2026-10-11T17:03:18.671506+07:00",
+  "python": "3.11.5",
+  "os": "Windows-10-10.0.26200-SP0",
+  "processor": "12th Gen Intel(R) Core(TM) i7-12700H",
+  "logical_cpu_count": 20,
+  "threads": 4,
+  "device": "cpu",
+  "cuda_available": false,
+  "checkpoint": "tabpfn-v3.5-20260909.safetensors",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "test_size": 0.25,
+  "versions": {
+    "tabpfn": "9.1.0",
+    "torch": "2.14.1",
+    "catboost": "1.2.10",
+    "scikit-learn": "1.6.1",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.12.0",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "ipykernel": "6.29.5",
+    "huggingface-hub": "0.34.4",
+    "safetensors": "0.7.0",
+    "skrub": "0.10.1"
+  },
+  "checkpoint_sha256": "ece4d67eadfea42eb0e610df5189bea60cb7f31073d81e9c7a019b76eacf0be3",
+  "checkpoint_bytes": 876027932,
+  "model_status": {
+    "Logistic Regression": "measured",
+    "Random Forest": "measured",
+    "CatBoost": "measured",
+    "TabPFN-3.5": "measured"
+  }
+}

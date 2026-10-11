@@ -1,0 +1,25 @@
+[
+  {
+    "dataset":"Breast Cancer",
+    "rows":569,
+    "features":30,
+    "classes":2,
+    "class_counts":{
+      "0":212,
+      "1":357
+    },
+    "sha256_values":"483f461de24a295af79f8b0ca11e07c96457833dd2d5ae57c99051d7284e2fe5"
+  },
+  {
+    "dataset":"Wine",
+    "rows":178,
+    "features":13,
+    "classes":3,
+    "class_counts":{
+      "0":59,
+      "1":71,
+      "2":48
+    },
+    "sha256_values":"932e4c8989193eda69030e5c75b38d139ce21007b590879bf12176a16ca0eaad"
+  }
+]

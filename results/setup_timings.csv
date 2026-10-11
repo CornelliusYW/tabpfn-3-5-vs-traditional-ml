@@ -1,0 +1,5 @@
+model,setup_seconds
+Logistic Regression,0.02602420002222061
+Random Forest,0.4566618998069316
+CatBoost,0.6826243998948485
+TabPFN-3.5,0.9361809999682009
