@@ -1,0 +1,15 @@
+tabpfn==9.1.0
+torch==2.14.1
+catboost==1.2.10
+scikit-learn==1.6.1
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.12.0
+matplotlib==3.10.8
+nbformat==5.10.4
+nbclient==0.10.2
+nbconvert==7.16.6
+ipykernel==6.29.5
+huggingface-hub==0.34.4
+safetensors==0.7.0
+skrub==0.10.1
